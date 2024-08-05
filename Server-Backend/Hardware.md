@@ -3,8 +3,8 @@ These are the specifications for the hardware being used when I am providing the
 
 - Restream Machine
     - Used for stream broadcast
-    - Accessed via NoMachine or Parsec; uses VPS as a repeater
-    - Intel i5-6500 3.20 GHz (Hope to replace with an i7-6700 3.40 GHz CPU long-term)
+    - Accessed via NoMachine or Parsec; uses VPS as a repeater for NoMachine
+    - Intel i7-6700 3.40 GHz
     - NVIDIA Quadro P400
     - Windows 10 Professional / Linux Pop_OS 22.04 LTS (Ubuntu)
 - Virtual Private Server
