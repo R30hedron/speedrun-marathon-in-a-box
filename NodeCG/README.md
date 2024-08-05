@@ -36,18 +36,18 @@ The following assumes installing NodeCG onto a Raspberry Pi
     a) [Create an application using the Twitch API](https://dev.twitch.tv/console/apps/create). Use `https://<hostname>:9090/nodecg-speedcontrol/twitchauth` as the OAuth redirect url.
 
     b) Modify `cfg/nodecg-speedcontrol.json` file with the relevant Twitch API tags:
-   ```json
-   ...
-   "twitch": {
-    "enabled": true,
-    "clientID": "CLIENT_ID",
-    "clientSecret": "CLIENT_SECRET",
-    "redirectURI": "https://<hostname>:9090/nodecg-speedcontrol/twitchauth",
-    "streamTitle": "Game: {{game}} - Category: {{category}} - Players: {{players}}",
-    "streamDefaultGame": "Games + Demos",
-    "ffzIntegration": false
-  },
-   ...
-   ```
+    ```json
+    ...
+    "twitch": {
+        "enabled": true,
+        "clientID": "CLIENT_ID",
+        "clientSecret": "CLIENT_SECRET",
+        "redirectURI": "https://<hostname>:9090/nodecg-speedcontrol/twitchauth",
+        "streamTitle": "Game: {{game}} - Category: {{category}} - Players: {{players}}",
+        "streamDefaultGame": "Games + Demos",
+        "ffzIntegration": false
+    },
+    ...
+    ```
 
 
